@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Hilltop 2025",
-  description: "Hiltop Encounters ~ 2025",
+  title: "Port Harcourt Revival Crusade",
+  description: "Join us for this 6 Days Revival Crusade",
 };
 
 export default function RootLayout({ children }) {
