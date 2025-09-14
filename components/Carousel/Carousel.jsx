@@ -12,13 +12,13 @@ export function EmblaCarousel() {
     <div className="embla" ref={emblaRef}>
       <div className="embla__container">
         <div className="embla__slide">
-            <img src="/assets/images/slide1.png" alt="" />
+            <img src="/assets/images/slide1.jpg" alt="" />
         </div>
         <div className="embla__slide">
-            <img src="/assets/images/slide2.png" alt="" />
+            <img src="/assets/images/slide2.jpg" alt="" />
         </div>
         <div className="embla__slide">
-            <img src="/assets/images/slide3.png" alt="" />
+            <img src="/assets/images/slide3.jpg" alt="" />
         </div>
       </div>
     </div>

@@ -8,7 +8,7 @@ export default function ChurchPhotoPage() {
   const [imageVisible, setImageVisible] = useState(false);
   const [hashtagsCopied, setHashtagsCopied] = useState(false);
 
-  const hashtags = "#watchmanportharcourt #hiltopencounters2025 #hosanna #louditlikehosanna #hilltopencounters #watchmancampus #iamliveathilltopencounters2025";
+  const hashtags = "#watchmanportharcourt #PortHarcourtRevival #twokingdomsatwar #WCCRM #6daysofpower #Crusade2025";
 
   const copyHashtags = () => {
     navigator.clipboard.writeText(hashtags);
@@ -74,7 +74,7 @@ export default function ChurchPhotoPage() {
             {/* Second Button (Neon Glow) */}
             {hashtagsCopied && (
               <motion.a
-              href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fweb.facebook.com%2Fshare%2Fr%2F1BBETGQZW6%2F&quote=I%E2%80%99m%20live%20at%20Hilltop%20Encounters%202025%20%E2%80%94%20HOSANNA!%0AThe%20atmosphere%20is%20electrifying%20and%20I%E2%80%99m%20being%20tremendously%20blessed%20already!%0A%0A%23hosanna%20%23watchmancampus%20%23hilltopencounters2025%20%23hte2025"
+              href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fweb.facebook.com%2Fshare%2Fr%2F1BBETGQZW6%2F&quote=I%E2%80%99m%20live%20at%206%20DAYS%20REVIVAL%20CRUSADE%202025%20%E2%80%94%20TwoKingdomsAtWar!%0AThe%20atmosphere%20is%20electrifying%20and%20I%E2%80%99m%20being%20tremendously%20blessed%20already!%0A%0A%23twokingdomsatwar%20%23watchmanportharcourt%20%23portharcourtrevivalcrusade2025%20%23prc2025"
                 target="_blank"
                 rel="noopener noreferrer"
                 initial={{ opacity: 0, scale: 0.8 }}
