@@ -8,7 +8,7 @@ export default function ChurchPhotoPage() {
   const [imageVisible, setImageVisible] = useState(false);
   const [hashtagsCopied, setHashtagsCopied] = useState(false);
 
-  const hashtags = "#hiltopencounters2025 #hosanna #louditlikehosanna #hilltopencounters #watchmancampus #iamliveathilltopencounters2025";
+  const hashtags = "#watchmanportharcourt #hiltopencounters2025 #hosanna #louditlikehosanna #hilltopencounters #watchmancampus #iamliveathilltopencounters2025";
 
   const copyHashtags = () => {
     navigator.clipboard.writeText(hashtags);
