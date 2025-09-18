@@ -8,7 +8,8 @@ export default function ChurchPhotoPage() {
   const [imageVisible, setImageVisible] = useState(false);
   const [hashtagsCopied, setHashtagsCopied] = useState(false);
 
-  const hashtags = "#watchmanportharcourt #PortHarcourtRevival #twokingdomsatwar #WCCRM #6daysofpower #Crusade2025";
+  const hashtags = "#TwoKingdomsAtWar #WatchmanRevival2025 #NkpoluCrusade2025 #WatchmanPortHarcourt #WatchmanPortHarcourtCrusade #PortHarcourtForChrist #PHCityAwakening #RevivalAtNkpolu #6DaysOfPower #WCCRM #mile3 #fypシ゚viralシfypシ゚";
+
 
   const copyHashtags = () => {
     navigator.clipboard.writeText(hashtags);
@@ -27,7 +28,7 @@ export default function ChurchPhotoPage() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        Share Your <span className="">Beautiful Moments</span>
+        Invite <span className="">Someone To</span>
       </motion.h1>
 
       {/* Reveal Image Button */}
@@ -72,38 +73,38 @@ export default function ChurchPhotoPage() {
             {/* )} */}
 
             {/* Second Button (Neon Glow) */}
-            {hashtagsCopied && (
-              <motion.a
-              href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fweb.facebook.com%2Fshare%2Fr%2F1BBETGQZW6%2F&quote=I%E2%80%99m%20live%20at%206%20DAYS%20REVIVAL%20CRUSADE%202025%20%E2%80%94%20TwoKingdomsAtWar!%0AThe%20atmosphere%20is%20electrifying%20and%20I%E2%80%99m%20being%20tremendously%20blessed%20already!%0A%0A%23twokingdomsatwar%20%23watchmanportharcourt%20%23portharcourtrevivalcrusade2025%20%23prc2025"
-                target="_blank"
-                rel="noopener noreferrer"
-                initial={{ opacity: 0, scale: 0.8 }}
-                animate={{
-                  opacity: 1,
-                  scale: 1,
-                  boxShadow: [
-                    "0 0 10px rgba(255,255,255,0.6)",
-                    "0 0 20px rgba(255,255,255,0.8)",
-                    "0 0 40px rgba(255,255,255,1)",
-                    "0 0 20px rgba(255,255,255,0.8)",
-                  ],
-                }}
-                transition={{
-                  duration: 1,
-                  repeat: Infinity,
-                  repeatType: "mirror",
-                }}
-                whileHover={{
-                  scale: 1.1,
-                  boxShadow: "0 0 50px rgba(255,255,255,1)",
-                }}
-                className="relative bg-white text-black font-semibold px-8 py-3 rounded-full mt-4 overflow-hidden"
-              >
-                <span className="relative z-10">🚀 Share on Facebook</span>
-                {/* Light streak effect */}
-                <span className="absolute top-0 left-[-100%] w-full h-full bg-gradient-to-r from-transparent via-white/40 to-transparent animate-lightStreak"></span>
-              </motion.a>
-            )}
+{hashtagsCopied && (
+  <motion.a
+    href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fweb.facebook.com%2Fshare%2Fv%2F1CoqzefTYP%2F&quote=I%20am%20inviting%20you%20to%20the%20Port%20Harcourt%20Revival%20Crusade,%20Be%20there.%0A%0A%23TwoKingdomsAtWar%20%23WatchmanPortHarcourt%20%23WatchmanRevival2025%20%23NkpoluCrusade2025%20%23PHCityAwakening%20%23RevivalAtNkpolu%20%23WCCRM%20%23mile3%20%23fypシ゚viralシfypシ゚"
+    target="_blank"
+    rel="noopener noreferrer"
+    initial={{ opacity: 0, scale: 0.8 }}
+    animate={{
+      opacity: 1,
+      scale: 1,
+      boxShadow: [
+        "0 0 10px rgba(255,255,255,0.6)",
+        "0 0 20px rgba(255,255,255,0.8)",
+        "0 0 40px rgba(255,255,255,1)",
+        "0 0 20px rgba(255,255,255,0.8)",
+      ],
+    }}
+    transition={{
+      duration: 1,
+      repeat: Infinity,
+      repeatType: "mirror",
+    }}
+    whileHover={{
+      scale: 1.1,
+      boxShadow: "0 0 50px rgba(255,255,255,1)",
+    }}
+    className="relative bg-white text-black font-semibold px-8 py-3 rounded-full mt-4 overflow-hidden"
+  >
+    <span className="relative z-10">🚀 Share on Facebook</span>
+    {/* Light streak effect */}
+    <span className="absolute top-0 left-[-100%] w-full h-full bg-gradient-to-r from-transparent via-white/40 to-transparent animate-lightStreak"></span>
+  </motion.a>
+)}
 
       {/* Extra Styles */}
       <style jsx>{`
