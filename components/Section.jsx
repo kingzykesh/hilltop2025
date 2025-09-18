@@ -28,7 +28,7 @@ export default function ChurchPhotoPage() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        Invite <span className="">Someone To</span>
+        Invite <span className="">Someone To Attend</span>
       </motion.h1>
 
       {/* Reveal Image Button */}
